@@ -10,7 +10,6 @@ class DirectorsController < ApplicationController
     director = Director.find(params[:id])
     render json: director
   end
-
   private
 
   def render_not_found_response
